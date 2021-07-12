@@ -357,6 +357,7 @@ public class OpenMicrosoftEdge extends Security {
 		email.sendKeys("Hello World");
 		pass.sendKeys("12345");
 		login.click();
+		System.out.println("Test Case Passed");
 		
 	}
 }
